@@ -1,7 +1,7 @@
 {
-  "name": "ngx-soundmanager2",
-  "version": "0.0.0",
-  "description": "SoundManager2 Music Player for Angular",
+  "name": "angular-audio-service",
+  "version": "1.0.0",
+  "description": "Audio Player for Angular",
   "main": "ngx-soundmanager2.bundle.js",
   "jsnext:main": "ngx-soundmanager2.module.js",
   "module": "ngx-soundmanager2.module.js",
@@ -14,10 +14,6 @@
     "build:demo": "rimraf demo/dist && tsc -p tsconfig-demo.json",
     "lint": "tslint -c tslint.json lib/**/*.ts test/**/*.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lfarran/ngx-soundmanager2.git"
-  },
   "keywords": [
     "angular",
     "soundmanager2",
@@ -27,12 +23,8 @@
     "music player",
     "audio player"
   ],
-  "author": "Luke Farran <lfarran>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lfarran/ngx-soundmanager2/issues"
-  },
-  "homepage": "https://github.com/lfarran/ngx-soundmanager2#readme",
+  "author": "Mouhamed Mar",
+
   "peerDependencies": {
     "@angular/core": ">=4.0.0"
   },
